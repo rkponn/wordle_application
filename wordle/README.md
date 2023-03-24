@@ -1,35 +1,19 @@
-# wordle
+# Wordle Game
 
-This template should help get you started developing with Vue 3 in Vite.
+Built using **vue-cli**, **Tailwind**, and **Vite**.
 
-## Recommended IDE Setup
+## About the Game
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Wordle is a word game where you have to find words in a grid of letters. The words can be found horizontally, vertically, diagonally, forwards, or backwards. Words can also wrap around the edges of the grid. The words must be at least three letters long and can be in the plural, past, or present tense. The words can be in any language.
 
-## Customize configuration
+The game is played on a grid of 16 letters. The grid is made up of 4 rows of 4 letters each. The grid is randomly generated each time you play.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+**Note**: This game has no local storage, so you can't save your progress. You can play the game as many times as you want, but you have to start over each time, and the Wordle word will be different each time.
 
-## Project Setup
+## How to Run the Game
 
-```sh
+1. Install dependencies:
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+2. Run the development server:
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
