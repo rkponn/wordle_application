@@ -1,7 +1,7 @@
 <template>
   
   <div class="flex flex-col h-screen max-w-md mx-auto justify-evenly">
-    <h1 class="title-center">Wordle</h1>
+    <h1 class="title-center wordle-title">Wordle</h1>
     <div>
       <WordRow
         v-for="(guess, index) in state.guesses"
@@ -131,5 +131,16 @@ export default {
 .title-center {
   text-align: center;
   font-size: 30px;
-}  
+}
+
+.wordle-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #22c55e;
+  text-shadow: 3px 3px 0 #000,
+               -1px -1px 0 #000,  
+               1px -1px 0 #000,
+               -1px 1px 0 #000,
+               1px 1px 0 #000;
+}
 </style>

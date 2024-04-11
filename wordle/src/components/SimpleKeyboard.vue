@@ -1,8 +1,8 @@
 <template>
-    <div class="simple-keyboard"></div>
-  </template>
+  <div class="simple-keyboard"></div>
+</template>
   
-  <script>
+<script>
   import Keyboard from "simple-keyboard";
   import "simple-keyboard/build/css/index.css";
   import { onMounted, ref, watch } from "vue";
@@ -48,9 +48,9 @@
       );
     },
   };
-  </script>
+</script>
   
-  <style>
+<style>
   div.miss {
     @apply bg-gray-500 !important;
     @apply text-white !important;
@@ -63,5 +63,5 @@
     @apply bg-yellow-500 !important;
     @apply text-white !important;
   }
-  </style>
+</style>
   
